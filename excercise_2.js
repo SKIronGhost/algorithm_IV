@@ -10,7 +10,6 @@ function printValues(x){
     if(a<x[i]){
         a=x[i]
     }
-    
     if(x[i]<b){
       b=x[i];
     }
