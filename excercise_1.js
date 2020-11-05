@@ -8,11 +8,12 @@ function printHigher(x){
 
   for (i= 0; i<x.length; i++) {
     if (x[i]>y) {
-      qty = qty+1;
+      qty++;
     }
     
   }
   return qty;
 } 
+
 
 console.log(printHigher(array));
